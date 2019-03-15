@@ -9,10 +9,11 @@ export default class TopSection extends React.Component{
     this.state = { }
     }
     render(){
-        return <div className="top0container">
+        return <div className="top-container">
         <div className ="title">Today's weather</div>
          <Weather />
 
+         <button className="btn btn-select-location"> Select Location</button>
         </div>
     }
 }

@@ -8,18 +8,20 @@ class App extends Component {
   render() {
     return (
       <div className="app-container">
-        <div className ="main-container">
-       
-       <div className="top-container">
-       <TopSection />
-       </div>
-
-       <div className="bottom-container">
-      <BottomSection />
-       </div>
-
+        <div className="main-container">
+            <div className="top-section">
+              <TopSection
+              
+              
+              />
+            </div>
+      
+          <div className="bottom-section">
+            <BottomSection  />
+          </div>
         </div>
       </div>
+  
     );
   }
 }
